@@ -1,0 +1,19 @@
+@import "~/assets/scss/variables.scss";
+
+.root {
+	max-width: 300px;
+	width: 100%;
+	font-weight: 600;
+}
+
+.text,
+.root {
+	display: flex;
+	align-items: center;
+}
+
+.icon {
+	color: $subTitleColor;
+	font-size: 25px;
+	margin-right: 12px;
+}

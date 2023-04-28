@@ -1,0 +1,82 @@
+@import "~/assets/scss/variables.scss";
+
+.main-footer {
+	background: #1e2c30;
+	padding-top: 66px;
+	color: #fff;
+}
+
+.top-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 52px;
+	border-bottom: 1px solid (rgba($color: #ffffff, $alpha: 13%));
+}
+
+.main-content {
+	padding-top: 52px;
+	padding-bottom: 56px;
+	display: flex;
+	justify-content: space-between;
+	span,
+	a {
+		color: #fff;
+	}
+}
+
+.list,
+.time {
+	display: block;
+	max-width: 324px;
+}
+
+.list {
+	h5 {
+		margin-bottom: 20px;
+	}
+	ul {
+		li {
+			font-weight: 500;
+			font-size: 17px;
+			line-height: 34px;
+			a {
+				transition: all 400ms ease-in-out;
+				&:hover {
+					color: $subTitleColor;
+				}
+			}
+		}
+	}
+}
+
+.info {
+	a {
+		margin-left: 15px;
+		transition: all 400ms ease-in-out;
+		&:hover {
+			color: $subTitleColor;
+		}
+	}
+}
+
+.time,
+.info {
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 34px;
+}
+
+.bottom {
+	display: flex;
+	padding: 20px 0;
+	background-color: #111e22;
+	span {
+		margin-right: auto;
+		margin-left: auto;
+		font-weight: 400;
+		font-size: 15px;
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+			"Lucida Sans", Arial, sans-serif;
+	}
+}

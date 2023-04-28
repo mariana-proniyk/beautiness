@@ -1,0 +1,11 @@
+@import "~/assets/scss/variables.scss";
+
+.root {
+	span {
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 15px;
+		letter-spacing: 0.1em;
+		color: $subTitleColor;
+	}
+}

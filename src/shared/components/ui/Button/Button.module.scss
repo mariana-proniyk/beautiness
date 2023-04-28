@@ -1,0 +1,29 @@
+@import "~/assets/scss/variables.scss";
+
+.root {
+	cursor: pointer;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 300ms ease-in-out;
+	height: 65px;
+	font-family: "Manrope";
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	border: none;
+	font-weight: 700;
+	&.is-primary {
+		background-color: $subTitleColor;
+		color: #ffffff;
+		&:hover {
+			background-color: $darkTextColor;
+		}
+	}
+	&.is-border {
+		background-color: transparent;
+		border: 2px solid #5c8692;
+		color: $darkTextColor;
+	}
+}
