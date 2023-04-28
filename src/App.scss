@@ -1,0 +1,78 @@
+@import "../assets/scss/index.scss";
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: $darkTextColor;
+}
+
+.root-center {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.content-center {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1260px;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 100%;
+}
+
+body {
+	font-family: "Manrope";
+	font-size: 18px;
+	line-height: 22px;
+}
+
+h2 {
+	font-family: "Playfair Display";
+	font-weight: 700;
+	font-size: 55px;
+	line-height: 66px;
+	text-align: center;
+	letter-spacing: -0.01em;
+}
+
+h3 {
+	font-family: "Playfair Display";
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 58px;
+}
+
+h4 {
+	font-family: "Playfair Display";
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+h5 {
+	font-family: "Playfair Display";
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+h6 {
+	font-family: "Playfair Display";
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 32px;
+	letter-spacing: -0.01em;
+}
+
+p {
+	font-family: "Manrope";
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 32px;
+	color: #555555;
+}
