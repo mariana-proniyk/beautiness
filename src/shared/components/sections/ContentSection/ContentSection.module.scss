@@ -1,0 +1,17 @@
+@import "~/assets/scss/variables.scss";
+
+.root {
+	max-width: 670px;
+	margin-bottom: 129px;
+}
+.cards {
+	width: 100%;
+	margin-top: 45px;
+}
+
+.title {
+	text-align: center;
+	span {
+		color: $subTitleColor;
+	}
+}

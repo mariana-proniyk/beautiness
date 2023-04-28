@@ -1,0 +1,48 @@
+@import "~/assets/scss/variables.scss";
+
+.root {
+	margin-bottom: 150px;
+}
+
+.body {
+	display: flex;
+	justify-content: space-between;
+}
+
+.title {
+	max-width: 270px;
+	width: 100%;
+	margin-bottom: 22px;
+}
+
+.left-content {
+	max-width: 500px;
+	width: 100%;
+	img {
+		width: 100%;
+		margin-top: 53px;
+		object-fit: cover;
+		min-height: 575px;
+	}
+}
+
+.right-content {
+	max-width: 644px;
+	width: 100%;
+	img {
+		object-fit: cover;
+		width: 100%;
+		margin-top: 46px;
+		&:first-child {
+			margin-top: 0;
+		}
+		min-height: 480px;
+	}
+}
+
+.button {
+	max-width: 249px;
+	margin-top: 80px;
+	margin-right: auto;
+	margin-left: auto;
+}
