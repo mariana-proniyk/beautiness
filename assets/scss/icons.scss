@@ -1,0 +1,56 @@
+$icons-font: "icons";
+
+@font-face {
+    font-family: $icons-font;
+    src: url("../../public/fonts/icons/icons.ttf?58c22cfef1d2bb2ab99710633edfb5b3") format("truetype"),
+url("../../public/fonts/icons/icons.woff?58c22cfef1d2bb2ab99710633edfb5b3") format("woff"),
+url("../../public/fonts/icons/icons.woff2?58c22cfef1d2bb2ab99710633edfb5b3") format("woff2"),
+url("../../public/fonts/icons/icons.svg?58c22cfef1d2bb2ab99710633edfb5b3#icons") format("svg");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$icons-map: (
+    "arrow": "\f101",
+    "facebook": "\f102",
+    "in": "\f103",
+    "instagram": "\f104",
+    "phone": "\f105",
+    "reservation": "\f106",
+    "star": "\f107",
+    "twitter": "\f108",
+);
+
+.icon-arrow:before {
+    content: map-get($icons-map, "arrow");
+}
+.icon-facebook:before {
+    content: map-get($icons-map, "facebook");
+}
+.icon-in:before {
+    content: map-get($icons-map, "in");
+}
+.icon-instagram:before {
+    content: map-get($icons-map, "instagram");
+}
+.icon-phone:before {
+    content: map-get($icons-map, "phone");
+}
+.icon-reservation:before {
+    content: map-get($icons-map, "reservation");
+}
+.icon-star:before {
+    content: map-get($icons-map, "star");
+}
+.icon-twitter:before {
+    content: map-get($icons-map, "twitter");
+}
